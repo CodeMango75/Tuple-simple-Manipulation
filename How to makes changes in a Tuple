@@ -1,0 +1,8 @@
+#Tuples : Manipulation
+#Below Example adds 2 new countries in the tuple. Tuples can be INDIRECTLY manipulated, not directly. We do it with the help of List conversion
+Countries = ("Pakistan","Russia","Switzerland","Canada","England and Wales")
+AddCountry = list(Countries)
+AddCountry.append("United States")
+AddCountry.append("Australia")
+NewCountries = tuple(AddCountry)
+print(NewCountries)
